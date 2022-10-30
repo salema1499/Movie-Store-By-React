@@ -47,9 +47,9 @@ export const Detelis = (props) => {
                 <p  style={{fontSize:"23px",position:"relative",paddingRight:"23PX"}} >{movie.overview}</p>
              </div>
           </div>
-          <div style={{border:"solid " , width:"10%",marginLeft:"10%",borderRadius:"10PX",position:"relative" ,left:"-6px",bottom:"55px",padding:"2px"}}>
+          {/* <div style={{border:"solid " , width:"10%",marginLeft:"10%",borderRadius:"10PX",position:"relative" ,left:"-6px",bottom:"55px",padding:"2px"}}>
              <h5 className='vote_average'>vote_average : {movie.vote_average}</h5>
-          </div>
+          </div> */}
         </div>
       )
       }

@@ -57,18 +57,11 @@ const searchMovies=(e)=>{
      
  </form>
    
-      <Router>
-  
-       
-         
-        
-       
-            <div className='container2'>
+      {/* <Router> */}
+          <div className='container2'>
             {rendreMovies()}
-            </div>
-      
-         
-      </Router>
+          </div>         
+      {/* </Router> */}
      
     </div>
   );

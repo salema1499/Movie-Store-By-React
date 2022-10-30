@@ -63,7 +63,6 @@ function App() {
   //   </div>
   // );
   return (
-    <div>
       <BrowserRouter>
         <Header />
 
@@ -73,7 +72,6 @@ function App() {
           <Route exact path="/" component={HomePage} />
         </Switch>
       </BrowserRouter>
-    </div>
   );
 }
 
