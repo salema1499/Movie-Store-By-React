@@ -1,0 +1,33 @@
+.detelis{
+
+   position: relative;
+   background-repeat: no-repeat;
+   
+   
+   
+     /* padding: 20px; */
+     /* margin: 10px; */
+     color: #fffffffb;
+     font-size: 40px;
+     font-weight: 100px;
+     /* background-image: url("https://wallpaperaccess.com/full/3782297.jpg"); */
+     background-image: linear-gradient(to right, rgba(3, 37, 65, 0.8) 0%, rgba(3, 37, 65, 0) 100%),url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/sfjqJDmNqMIImO5khiddb9TARvO.jpg");
+     
+       height: 100vh;
+        justify-content: center;
+   justify-items: center;  
+    
+    
+    
+   
+}
+
+.vote_average{
+    color: rgb(3, 5, 17);
+    border:  rgb(18, 31, 102);
+    font-size: 15px;
+
+} 
+.titlemovie{
+    color:rgb(13, 20, 65);
+}

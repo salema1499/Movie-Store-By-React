@@ -1,0 +1,110 @@
+header{
+    height: 11vh;
+    line-height: 10vh;
+    background-color: rgb(12, 16, 39);
+       color: #fff;
+   position:fixed;
+   width: 100%;
+    z-index: 999;
+   
+}
+
+header a{
+    color: rgb(213, 214, 228);
+    margin-left: 30px;
+}
+
+
+header i {
+    quotes: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 0 10px;
+  
+}
+header button {
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+   
+}
+.toggle{
+    display: none;
+    padding: 3px;
+    margin: 4px;
+
+}
+
+.toggle i {
+   border:  solid rgb(204, 185, 185);
+   color :rgb(197, 102, 102)
+}
+
+.imglogo{
+    height: 60px;
+}
+
+.logo h1 {
+    position: relative;
+    bottom:3px;
+    font-size:37px
+
+}
+
+.logo{
+    display: flex;
+    color: rgb(248, 246, 246);
+    font-style:italic;
+    font-weight: bolder;
+   
+}
+.logo:hover{
+    color: black
+    ;
+}
+
+@media only screen and (max-width :768px){
+    header nav .flexSB{
+        display: none;
+
+    }
+    .account{
+        display: none;
+    }
+    .navMenu-list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:0;
+        left: 0;
+        background-color: rgb(12, 16, 39);
+        width: 50%;
+        height: 100vh;
+        z-index: 999;
+      
+
+    }
+
+
+    header ul li {
+        margin-top: 30px;
+        padding: 0 50px;
+    }
+
+    .toggle {
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom :0;
+        right: 20px;
+        margin: auto;
+        cursor: pointer;
+        background: none;
+    }
+}
+    
+

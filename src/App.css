@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+    font-family: "Source" sans-serif ;
+    background-color: white;
+    color:black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul{
+    list-style-type: none;
+   
 }
 
-.App-link {
-  color: #61dafb;
+.flexSB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+    max-width: 90%;
+    margin: auto;
 }
+
+button {
+    /* background-color: rgb(211, 43, 43); */
+    outline: none;
+    border: none;
+    color: black;
+    padding: 5px 20x;
+    font-weight: 500;
+    font-size: 17px;
+}
+button .fa-search{
+    color: rgb(167, 65, 65);
+       font-size:25px ;
+
+  
+}
+input,.buttonsearch{
+    position: relative;
+    left: 21%;
+    width: 300px;
+    border-radius: 30%;
+    margin-top: 60px;
+
+}
+.buttonsearch{
+
+  position: relative;
+ 
+  right: 32px;
+  border-radius: 50px;
+  font-size: 28px;
+  font-weight: 100;
+  width: 35px;
+
+}
+input{
+    height: 45px;
+    width: 60%;
+   
+    /* border-radius: 30% 0 30%; */
+    font-family: 'Courier New', Courier, monospace;
+   color: #030303;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.imghome{
+    height: 100%;
+    width: 100%;
+
+}
+.titleMovie:hover{
+    color: aqua;
+}
+
+
+.container2{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 15px;
+
+}
+
+.movie-cover{
+    width: 50%;
+    height: 345px;
+    
+}
+.movie-placeholder{
+    min-height: 345px;
+    width: 100%;
+    background-color: #fff;
+    color: #b43535;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero-content {
+ 
+   position: relative;
+background-repeat: no-repeat;
+
+
+
+  /* padding: 20px; */
+  /* margin: 10px; */
+  color: #fffffffb;
+  font-size: 40px;
+  font-weight: 100px;
+  /* background-image: url("https://wallpaperaccess.com/full/3782297.jpg"); */
+  background-image: linear-gradient(to right, rgba(3, 37, 65, 0.8) 0%, rgba(3, 37, 65, 0) 100%),url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,032541,01b4e4)/sfjqJDmNqMIImO5khiddb9TARvO.jpg");
+  
+    height: 50vh;
+     justify-content: center;
+justify-items: center;  
+ 
+ 
+ 
+}
+
+.hero-anther{
+    /* background-color:rgba(3, 37, 65, 0.8); */
+       position:absolute;
+   width:100%;
+    height: 50vh;
+    bottom: 5px;
+    /* right: 0.5px; */
+    top:1.5px;
+  
+}
+.hero-title{
+    padding-top: 15% ;
+   
+
+   
+ 
+}
+
+
+
+.movie-card  img{
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.linkMovie:visited{
+    color: yellow;
+}
+
+
+.hero-overview2{
+    border: rgb(12, 16, 39);
+}
+
+
